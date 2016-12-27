@@ -1,0 +1,377 @@
+/*===========
+	Fonts
+============*/
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../fonts/Nexa Light.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.otf');
+ }
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+ }
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.ttf');
+ }
+
+body {
+  font-family: 'Montserrat-Regular'; 
+}
+.paddimg-none {
+  padding: 0px;
+}
+
+
+/*
+**----Header Section 1----**
+*/
+
+.top-header-landing {
+  background-image: url('../landing-img/branding-top-bg-01.png');
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-attachment: fixed;
+  padding: 220px 0px;
+  height: auto;
+  width: 100%;
+}
+
+.top-header-landing h1 {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  font-size: 60px;
+}
+
+.top-header-landing p {
+  color: white;
+  font-family: 'Nexa Light';
+  font-size: 30px;
+}
+
+.top-header-landing button {
+  background-color: #ff0000; 
+  color: white;
+  font-family: 'Montserrat-Bold';
+  border: none;
+  padding: 5px 10px;
+  height: 40px;
+  width: 210px;
+  transition: ease-in-out 0.2s all;
+}
+
+.top-header-landing button:hover {
+  background-color: rgba(255, 255, 255, 0.38);
+}
+
+/* 
+** Sponsors 
+*/
+
+.sponsors-caroucel {
+  padding: 40px 0px 10px;
+}
+.owl-controls {
+  display: none !important;
+}
+.gallery-cell1 img {
+  padding: 20px 0px; 
+  width: 100%;
+}
+
+.gallery-cell1 .sponsors_img {
+  padding: 20px 0px; 
+  width: 100%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.gallery-cell1 .sponsors_img:hover {
+  filter: grayscale(0%);
+}
+
+
+/*
+** Portfolio
+*/
+.portfolio-landing h2 {
+  font-family: 'Montserrat-Bold';
+  font-size: 42px;
+}
+.portfolio-landing p { 
+    font-family: 'Nexa Light';
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.portfolio-landing {
+  padding: 10px 0px 0px;
+  text-align: center;
+}
+
+.portfolio-landing img {
+  width: 100%;
+}
+
+
+
+/*
+** BENEFTIS SECTION
+*/
+
+.benefits-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #1c2328;
+  color: white;
+}
+.benefits-section h2 {
+  font-size: 45px;
+}
+.benefits-section p {
+  font-family: 'Nexa Light';
+  font-size: 24px;
+}
+.icon_text_benefits {
+  padding-top: 50px;
+
+}
+
+.icon_text_benefits img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.icon_text_benefits p {
+  font-family: 'Nexa Light';
+  font-size: 20px;
+}
+
+
+
+
+
+/*
+*** Contact Us Section
+*/
+
+.contact-section_landing {
+  padding: 50px 0px;
+}
+.contact-section_landing h2 {
+  font-family: 'Montserrat-Bold';
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0px 15px;
+}
+
+.snd-title {
+  text-align: left !important;
+  color: #cccccc;
+  font-family: 'Nexa Light';
+  font-size: 20px;
+}
+
+.contact-section_landing p {
+  text-align: right;
+  font-family: 'Nexa Light';
+  font-size: 20px;  
+}
+
+.contact-section_landing hr {
+      display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgba(204, 204, 204, 0.53);
+    margin: 1em 0;
+    padding: 0;
+    width: 100%;
+}
+
+.list-group-item {
+  margin: 5px 0px;
+  border-radius: 10px !important;
+  border: solid 1px #d3d3d3;
+  color: #d3d3d3;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  background-color: #ff0000;
+  border: solid 1px transparent;
+}
+
+.contact-section_landing span {
+  float: right;
+  font-size: 18px;
+}
+.chose_service_land h4 {
+}
+.contact-inputs_landing input{
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 0 px;
+    height: 43px;
+    border-radius: 10px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    color: #cccccc;
+}
+.contact-inputs_landing input:active {
+  outline: none;
+}
+.contact-inputs_landing input:focus {
+  outline: none;
+}
+
+.contact-inputs_landing textarea {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #ccc;
+  color: #cccccc;
+  border-radius: 10px;
+}
+
+.contact-inputs_landing textarea:active {
+  outline: none;
+}
+.contact-inputs_landing textarea:focus {
+  outline: none;
+}
+
+.contact_submit-btn {
+  text-align: center;
+}
+.contact_submit-btn button {
+    background-color: #ff0000; 
+  color: white;
+  font-family: 'Montserrat-Bold';
+  border: none;
+  padding: 5px 10px;
+  height: 40px;
+  width: 150px;
+}
+.contact_submit-btn button a{
+  color: white !important;
+  text-decoration: none;
+}
+
+
+/*
+**---- Footer Section 6 the last ----**
+*/
+.footer-section  {
+  padding: 20px 0px;
+  background-color: #060b0f;
+  height: auto;
+  color: white;
+}
+.footer-section h3 {
+  font-size: 22px;
+  font-family: "Montserrat-Regular";
+}
+.footer-section .button {
+  text-align: center;
+  padding: 30px 0px;
+}
+.footer-section .button button {
+  border: white solid 3px;
+  background-color: transparent;
+  width: 80%;
+  height: 40px; 
+  font-size: 18px;
+  font-family: "Montserrat-Regular";
+    transition: all 0.5s ease-in-out 0s;
+}
+.footer-section .button button:hover {
+  background-color: #e50011;
+  border: solid 3px #e50011;
+}
+
+
+/*
+
+Hover Effect of Submit Button
+
+*/
+/* Icon Forward */
+.hvr-icon-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+.hvr-icon-forward:before {
+  content: "\f138";
+  position: absolute;
+  right: 0.6em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
+  -webkit-transform: translateX(4px);
+  transform: translateX(4px);
+}
+
+
+
+/*Only in desktop*/
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+      display: none;
+    }
+}
+
+/*Only on Mobile*/
+@media only screen and (max-width: 844px) {
+  .mobile-d-n {
+    display: none;
+  }
+  .top-header-landing {
+    padding: 90px 0px;
+    background-position: 20% 0%;
+  }
+  .benefits-section p {
+    font-size: 22px;
+  }
+  .contact-section_landing {
+    padding-top: 20px;
+  }
+  .contact-inputs_landing textarea {
+    margin-top: 5px;
+  }
+  .footer-section h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .contact-section_landing p {
+    text-align: left;
+    font-size: 15px;
+  }
+}
