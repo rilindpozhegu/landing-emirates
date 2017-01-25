@@ -211,6 +211,21 @@ body {
   border: solid 1px transparent;
 }
 
+.active-btn {
+  background-color: #ff0000;
+  border: solid 1px transparent;  
+  color: white;
+}
+
+.active-btn.active, .active-btn.active:focus, .active-btn.active:hover {
+  margin: 5px 0px;
+  border-radius: 10px !important;
+  border: solid 1px #d3d3d3;
+  color: #d3d3d3;
+  background-color: transparent;
+}
+
+
 .contact-section_landing span {
   float: right;
   font-size: 18px;
@@ -220,7 +235,7 @@ body {
 .contact-inputs_landing input{
     width: 100%;
     margin-top: 4px;
-    margin-bottom: 0 px;
+    margin-bottom: 0px;
     height: 43px;
     border-radius: 10px;
     border: solid 1px #ccc;
